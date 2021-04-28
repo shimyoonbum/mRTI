@@ -1,0 +1,344 @@
+<resources>
+    <string name="app_name">mRTI</string>
+    <string name="alert">Alert</string>
+    <string name="decision">Decision</string>
+    <string name="note">Note</string>
+    <string name="okay">OK</string>
+    <string name="warning">Warning</string>
+    <string name="complete">Complete</string>
+    <string name="connect">Connect</string>
+    <string name="server_error">Server error</string>
+    <string name="querying">Searching</string>
+    <string name="progressing">progressing</string>
+
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="cancel">Cancel</string>
+    <string name="search">Search</string>
+
+    <string name="update_please_wait">Please wait a minutes</string>
+    <string name="update_new_version">Upgrade to new version</string>
+    <string name="request_new_version">Would you like to update to new version?</string>
+    <string name="download_finished">Download complete</string>
+    <string name="download_canceled">Download canceled</string>
+    <string name="download_failed">Download failed. Please download it again.</string>
+    <string name="bt_select_connected_to_connect">To connect with Bluetooth, select [Connect].</string>
+    <string name="bt_connected">The Bluetooth device is connected</string>
+    <string name="bt_disconnected">The Bluetooth connection has been disconnected</string>
+
+    <string name="printer_connecting">Connecting</string>
+    <string name="printer_connected">Connected</string>
+    <string name="printer_error_connected">Error occurred connect</string>
+    <string name="printer_error_disconnected">Error occurred disconnect</string>
+    <string name="printer_lang">Printer language</string>
+    <string name="printer_loading_lang">Fetching print language\.\.\.</string>
+    <string name="printer_lang_unknown">Unknown print language</string>
+
+    <string name="printer_disconnecting">Unlinking\.\.\.</string>
+    <string name="printer_disconnected">Disconnection</string>
+    <string name="printer_unknown_error_disconnected">Unlinking to Unknown Error</string>
+
+    <string name="printer_sending_data">Sending the data</string>
+
+    <string name="printer_ready">Printer ready</string>
+    <string name="printer_header_open">Printer head open</string>
+    <string name="printer_stop">Printer stop</string>
+    <string name="printer_paper_out">Out of paper</string>
+    <string name="printer_pallet_print">Do you want to print the pallet label?</string>
+
+    <string name="login_chk_id">Please enter your ID.</string>
+    <string name="login_chk_pw">Please enter your password.</string>
+    <string name="login_chk_fail">The information you entered is wrong.</string>
+    <string name="login_chk_erp">not have ERP Auth.</string>
+    <string name="login_fac_info">has logged in.</string>
+    <string name="login_bluetooth_select">Select Bluetooth device</string>
+    <string name="login_network_select">Select Network Printer</string>
+    <string name="login_erp_id">ERP ID</string>
+    <string name="login_btn">Login</string>
+    <string name="login_id">ID</string>
+    <string name="login_id_save">Keep me signed in.</string>
+    <string name="login_pw">PassWord</string>
+
+    <string name="no_bluetooth">Bluetooth cannot be recognized.</string>
+    <string name="not_pairing">There is no paring device.</string>
+    <string name="not_select_mac">Select the device to connect.</string>
+
+    <string name="cur_ver">Current Ver : </string>
+    <string name="new_ver">New Ver : </string>
+
+    <!-- menu 관련 추가 -->
+    <string name="menu_recv_manage">Receiving Management</string>
+    <string name="menu_move_manage">Moving Management</string>
+    <string name="menu_prod_manage">Production Management</string>
+    <string name="menu_label_manage">Barcode Management</string>
+    <string name="menu_code">Code</string>
+    <string name="menu_name">Name</string>
+    <string name="menu_change_organization">Change Organization</string>
+    <string name="menu_change_subinventory">Change Subinventory</string>
+    <string name="layout_recv_po">PO Receiving</string>
+    <string name="layout_recv_tro">TRO Receiving</string>
+    <string name="layout_tran_subinv">SubInventory Transfer</string>
+    <string name="layout_tran_tro">TRO Transfer</string>
+    <string name="layout_prod_tran">Transact Product</string>
+    <string name="layout_ship_order">Order Shipping</string>
+    <string name="layout_label_palt">Pallet Barcode</string>
+    <string name="layout_label_loca">Locator Barcode</string>
+    <string name="layout_so_tro">SO/TRO Moving</string>
+    <!-- 메뉴 추가 20201209-->
+    <string name="layout_move_inventory">Move Allocated Inventory</string>
+
+    <!-- Prod Tran 관련-->
+    <string name="prod_transact_product">Transact Product</string>
+    <string name="prod_org">Org</string>
+    <string name="prod_batch_num">Batch No</string>
+    <string name="prod_planned_date">Planned Date</string>
+    <string name="prod_product">Product</string>
+    <string name="prod_pallet">Pallet No </string>
+    <string name="prod_item_no">Item No </string>
+    <string name="prod_recipe_no">Recipe No </string>
+    <string name="prod_recipe_ver">Ver </string>
+    <string name="prod_planned_qty">Planned QTY</string>
+    <string name="prod_total_qty">Total QTY</string>
+    <string name="prod_pallet_qty">Complete QTY</string>
+    <string name="prod_btn_scan">Scan</string>
+    <string name="prod_btn_find">Find</string>
+    <string name="prod_text_Y">Y</string>
+    <string name="prod_text_N">N</string>
+    <string name="prod_completion">Completion</string>
+
+    <!-- batch complete 관련-->
+    <string name="batch_transact_date">Complete date</string>
+    <string name="batch_batch_num">Batch No</string>
+    <string name="batch_release_date">Release Date</string>
+    <string name="batch_product">Product</string>
+    <string name="batch_pallet">Pallet No </string>
+    <string name="batch_item_no">Item</string>
+    <string name="batch_recipe_no">Recipe No </string>
+    <string name="batch_planned_qty">Planned QTY </string>
+    <string name="batch_transaction_qty">Transaction Qty</string>
+    <string name="batch_exp_date">Expiration Date</string>
+    <string name="batch_sub_inv">SubInv</string>
+    <string name="batch_loc">LOC</string>
+    <string name="batch_lot_number">LOT No.</string>
+    <string name="batch_complete_batch">Completion Batch</string>
+
+    <!-- Receive Tro 관련-->
+    <string name="tro_receiving">TRO Receiving</string>
+    <string name="tro_receipt_date">Receipt Date</string>
+    <string name="tro_btn_receipt">Receipt</string>
+    <string name="tro_num">TRO Num</string>
+    <string name="tro_from_org">From Org</string>
+    <string name="tro_to_org">To Org</string>
+    <string name="tro_exp_receipt_date">Exp Receipt Date</string>
+    <string name="tro_shipment_date">Shipment Date</string>
+    <string name="tro_btn_find">Find</string>
+    <string name="tro_qty">QTY</string>
+    <string name="tro_item_no">Item No</string>
+    <string name="tro_uom">UOM</string>
+    <string name="tro_lot">Lot</string>
+    <string name="tro_subinv">SubInv</string>
+    <string name="tro_loc">LOC</string>
+    <string name="tro_pallet">Pallet</string>
+    <string name="tro_btn_palt_new">N</string>
+
+    <!-- sub inv trans 관련-->
+    <string name="sub_inv_btn_move">Move</string>
+    <string name="sub_inv_transaction_date">Transfer Date</string>
+    <string name="sub_inv_pallet_item">Pallet/Item</string>
+    <string name="sub_inv_pallet_no">Pallet No</string>
+    <string name="sub_inv_item_num">Item No</string>
+    <string name="sub_inv_lot">Lot</string>
+    <string name="sub_inv_qty">QTY</string>
+    <string name="sub_inv_from_location">From Location</string>
+    <string name="sub_inv_loc">LOC</string>
+    <string name="sub_inv_uom">UOM</string>
+    <string name="sub_inv">SubInv</string>
+    <string name="sub_inv_to_location">To Location</string>
+    <string name="sub_inv_item_name">Item Name</string>
+    <string name="sub_inv_transfer">Sub Inventory Transfer</string>
+
+    <!-- Tran Tro 관련-->
+    <string name="tran_tro_transfer">TRO Transfer</string>
+    <string name="tran_tro_shipment_date">Shipment Date</string>
+    <string name="tran_tro_from_org">From Org</string>
+    <string name="tran_tro_to_org">To Org</string>
+    <string name="tran_tro_receipt_date">Receipt Date</string>
+    <string name="tran_tro_btn_find">Find</string>
+    <string name="tran_tro_btn_shipment">Shipment</string>
+    <string name="tran_tro_qty">QTY</string>
+    <string name="tran_tro_item_no">Item No</string>
+    <string name="tran_tro_uom">UOM</string>
+    <string name="tran_tro_lot">Lot</string>
+    <string name="tran_tro_subinv">SubInv</string>
+    <string name="tran_tro_loc">LOC</string>
+    <string name="tran_tro_pallet">Pallet</string>
+    <string name="tran_tro_btn_palt_new">N</string>
+
+    <!-- move allcoationed inv 관련-->
+    <string name="move_allc_inv_btn_move">Move</string>
+    <string name="move_allc_inv_transaction_date">Transfer Date</string>
+    <string name="move_allc_inv_pallet_item">Pallet/Item</string>
+    <string name="move_allc_inv_pallet_no">Pallet No</string>
+    <string name="move_allc_inv_item_num">Item No</string>
+    <string name="move_allc_inv_lot">Lot</string>
+    <string name="move_allc_inv_qty">QTY</string>
+    <string name="move_allc_inv_from_location">From Location</string>
+    <string name="move_allc_inv_loc">LOC</string>
+    <string name="move_allc_inv_uom">UOM</string>
+    <string name="move_allc_inv">SubInv</string>
+    <string name="move_allc_inv_to_location">To Location</string>
+    <string name="move_allc_inv_item_name">Item Name</string>
+    <string name="move_allc_inv_transfer">Move Allocated Inventory</string>
+
+    <!-- Receive Po 관련-->
+    <string name="po_receiving">PO Receiving</string>
+    <string name="po_receipt_date">Receipt Date</string>
+    <string name="po_no">PO No</string>
+    <string name="po_ship_to_org">Ship to Org</string>
+    <string name="po_supplier">Supplier</string>
+    <string name="po_date">Po Date</string>
+    <string name="po_pallet">Pallet</string>
+    <string name="po_bl_no">B/L NO</string>
+    <string name="po_btn_receipt">Receipt</string>
+    <string name="po_btn_find">Find</string>
+    <string name="po_btn_palt_new">N</string>
+    <string name="po_qty">QTY</string>
+    <string name="po_item_no">Item No</string>
+    <string name="po_uom">UOM</string>
+    <string name="po_exp_date">Exp Date</string>
+    <string name="po_subinv">SubInv</string>
+    <string name="po_loc">LOC</string>
+    <string name="po_lot">LOT</string>
+
+    <!-- so trans 관련-->
+    <string name="so_moving">SO/TRO Moving</string>
+    <string name="so_item_detail">Remaining Item Detail</string>
+    <string name="so_item_nonplt">Non Pallet List</string>
+    <string name="so_btn_move">Move</string>
+    <string name="so_transaction_date">Transfer Date</string>
+    <string name="so_pick_ticket">Pick Ticket</string>
+    <string name="so_tro_no">SO(TRO) No</string>
+    <string name="so_to">To</string>
+    <string name="so_ship_date">Ship Date</string>
+    <string name="so_remaining_item">Remaining Item</string>
+    <string name="so_nonplt_item">Non Pallet Item</string>
+    <string name="so_btn_remain">Remain</string>
+    <string name="so_btn_nonplt">Non Pallet</string>
+    <string name="so_btn_find">Find</string>
+    <string name="so_qty">QTY</string>
+    <string name="so_item_no">Item No</string>
+    <string name="so_uom">UOM</string>
+    <string name="so_lot">Lot</string>
+    <string name="so_subinv">SubInv</string>
+    <string name="so_loc">LOC</string>
+    <string name="so_pallet">Pallet</string>
+    <string name="so_scan_msg">Please scan Pallet Barcode.</string>
+    <string name="so_tro_erp">Affiliate S/O, TRO are handled in ERP.</string>
+    <!-- Alert 관련-->
+    <string name="alert_logout">Would you like to logout?</string>
+    <string name="alert_set_recp">Do you continue to receipts?</string>
+    <string name="alert_set_ship">Would you like to process the shipment?</string>
+    <string name="alert_set_item">Would you choose this item?</string>
+    <string name="alert_set_locator">Would you choose this locator?</string>
+    <string name="alert_set_order">Would you choose this order number?</string>
+    <string name="alert_set_lot">Would you choose this lot?</string>
+    <string name="alert_set_batch">Would you choose this Batch No?</string>
+    <string name="alert_set_pallet">Would you choose this pallet?</string>
+    <string name="alert_set_subinventory">Would you choose this subinventory?</string>
+    <string name="alert_set_po">Would you choose this po number?</string>
+    <string name="alert_set_tro">Would you choose this tro number?</string>
+    <string name="alert_set_organ">Would you choose this organization?</string>
+    <string name="alert_set_comp">PO receiving is complete.</string>
+    <string name="alert_set_tro_recv">TRO receiving is complete.</string>
+    <string name="alert_set_subtran">Do you want to move the inventory?</string>
+    <string name="alert_set_move">Do you continue to moving?</string>
+    <string name="alert_set_batch_comp">Would you like to process the batch?</string>
+    <string name="alert_po_num">Please enter the Po Number.</string>
+    <string name="alert_po_bl_no">Please enter the B/L Number.</string>
+    <string name="alert_tro_num">Please enter the Tro Number.</string>
+    <string name="alert_tro_search">Please search the Tro Number first.</string>
+    <string name="alert_batch_pallet_no">Please enter the Batch, Item or Pallet No.</string>
+    <string name="alert_no_pallet">Please enter the Pallet Number.</string>
+    <string name="alert_no_select">Please enter information for PO receiving.</string>
+    <string name="alert_no_select_tro">Please enter information for TRO Transfer.</string>
+    <string name="alert_no_enough_tro">Please enter information for TRO receiving.</string>
+    <string name="alert_no_find">Please check the items.</string>
+    <string name="alert_no_info">Receipt is not possible without information.</string>
+    <string name="alert_no_sub_inv">There is an item without subInventory.</string>
+    <string name="alert_no_exp_date">There is an item without Exp Date.</string>
+    <string name="alert_no_item">No Data found.</string>
+    <string name="alert_no_header">Search PO Number first.</string>
+    <string name="alert_no_print_item">Please search the items to print first.</string>
+    <string name="alert_line_add">Do you want to split Lot?</string>
+    <string name="alert_pallet_add">Would you like to add production results?</string>
+    <string name="alert_set_subinv">Set the subinventory value.</string>
+    <string name="alert_set_loc">Set subinventory or locator value.</string>
+    <string name="alert_wrong_barcode">You should scan Pallet Barcode.</string>
+    <string name="alert_wrong_item">This item is different from Pick Ticket. Please check with your administrator.</string>
+    <string name="alert_no_move">There is nothing to move.</string>
+    <string name="alert_no_count">There is no matching data.</string>
+    <string name="alert_comp_move">Inventory moving is complete.</string>
+    <string name="alert_comp_batch">Process is complete.</string>
+    <string name="alert_comp_tro_tran">TRO transfer complete.</string>
+    <string name="alert_move_comp">Inventory moving is complete.</string>
+    <string name="alert_set_org">Please select an organization first.</string>
+    <string name="alert_scan_tro">Please scan Tro Barcode.</string>
+    <string name="alert_scan_loca">Please scan Locator Barcode.</string>
+    <string name="alert_scan_barcode">Please scan Locator or Tro Barcode.</string>
+    <string name="alert_no_item_id">Please search Item No first.</string>
+    <string name="alert_batch_pallet_qty">The quantity entered exceeds the full pallet quantity.</string>
+
+    <!-- popup 관련 추가 -->
+    <string name="popup_locator">Locator</string>
+    <string name="popup_batch_no">Batch No</string>
+    <string name="popup_po_no">Po No</string>
+    <string name="popup_planned_date">Planned Date</string>
+    <string name="popup_item_desc">Item Desc</string>
+    <string name="popup_from">From</string>
+    <string name="popup_to">To</string>
+    <string name="popup_ship_date">Ship Date</string>
+    <string name="popup_expiration_date">Expiration Date</string>
+    <string name="popup_select_date">select date</string>
+    <string name="popup_search_po_no">search Po No</string>
+    <string name="popup_ship_to">Ship To</string>
+    <string name="popup_ship_from">Ship From</string>
+    <string name="popup_product">Product</string>
+    <string name="popup_pallet_no">Pallet No</string>
+    <string name="popup_subinv">SubInv</string>
+    <string name="popup_item_no">Item No</string>
+    <string name="popup_org_code">Org</string>
+    <string name="popup_btn_find">Find</string>
+    <string name="popup_code">Code</string>
+    <string name="popup_name">Name</string>
+    <string name="popup_lot">Lot</string>
+    <string name="popup_org">Organization</string>
+    <string name="popup_loc">Loc</string>
+    <string name="popup_supplier">Supplier</string>
+    <string name="popup_po_date">Po Date</string>
+    <string name="popup_subinventory">Subinventory</string>
+    <string name="popup_tro_num">TRO Num</string>
+    <string name="popup_from_org">From Org</string>
+    <string name="popup_to_org">To Org</string>
+    <string name="popup_exp_receipt_date">Exp Receipt Date</string>
+    <string name="popup_ticket">Pick Ticket</string>
+    <string name="popup_order">Order Number</string>
+    <string name="popup_number">Number</string>
+
+    <!-- label 관련 -->
+    <string name="label_pallet_no">Pallet No</string>
+    <string name="label_batch_no">Batch No</string>
+    <string name="label_sub_inventory">SubInv</string>
+    <string name="label_org">Org</string>
+    <string name="label_locator">LOC</string>
+    <string name="label_locator_from">From LOC</string>
+    <string name="label_locator_to">To LOC</string>
+    <string name="label_item_no">Item No</string>
+    <string name="label_type">Type</string>
+    <string name="label_print_pallet">Print Pallet</string>
+    <string name="label_print_locator">Print Locator</string>
+    <string name="label_text_l">L</string>
+    <string name="label_text_s">S</string>
+    <string name="label_btn_find">Find</string>
+    <string name="label_btn_print">Print</string>
+    <string name="alert_batch_pallet_qty">confirm?</string>
+</resources>

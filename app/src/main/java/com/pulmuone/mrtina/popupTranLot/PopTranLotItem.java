@@ -1,0 +1,25 @@
+package com.pulmuone.mrtina.popupTranLot;
+
+import java.io.Serializable;
+
+public class PopTranLotItem implements Serializable {
+	public String  LOT_NUMBER,
+			SUBINVENTORY_CODE,
+			LOCATOR_CODE,
+			LOCATOR_CONTROL,
+			INVENTORY_LOCATION_ID,
+			PRIMARY_QUANTITY,
+			EXPIRATION_DATE;
+
+	public PopTranLotItem(String LOT_NUMBER, String SUBINVENTORY_CODE, String LOCATOR_CODE,
+						  String LOCATOR_CONTROL, String INVENTORY_LOCATION_ID,
+						  String PRIMARY_QUANTITY, String EXPIRATION_DATE) {
+		this.LOT_NUMBER = LOT_NUMBER;
+		this.SUBINVENTORY_CODE = SUBINVENTORY_CODE;
+		this.LOCATOR_CODE = LOCATOR_CODE;
+		this.LOCATOR_CONTROL = LOCATOR_CONTROL;
+		this.INVENTORY_LOCATION_ID = INVENTORY_LOCATION_ID;
+		this.PRIMARY_QUANTITY = PRIMARY_QUANTITY;
+		this.EXPIRATION_DATE = EXPIRATION_DATE;
+	}
+}

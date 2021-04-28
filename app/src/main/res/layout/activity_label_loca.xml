@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".labelLoca.LocaLabelActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp">
+
+        <RelativeLayout
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:id="@+id/layout_back"
+            android:background="@drawable/layout_style">
+
+            <ImageView
+                android:layout_width="17dp"
+                android:layout_height="17dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/icon_pre"
+                android:layout_centerInParent="true"/>
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/label_print_locator"
+            android:textSize="20sp"
+            android:textColor="@color/black"/>
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="@drawable/bg_top" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="3dp"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="20dp"
+                android:layout_weight="0.25"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical"
+                android:text="@string/label_org"
+                android:textSize="13sp"
+                android:textColor="@color/black"
+                android:textStyle="bold"/>
+
+            <EditText
+                android:id="@+id/edit_org"
+                android:layout_width="0dp"
+                android:layout_height="25dp"
+                android:layout_weight="0.75"
+                android:background="@drawable/bg_input"
+                android:textColor="@color/black"
+                android:inputType="textNoSuggestions"
+                android:textSize="13sp"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/layout_style"
+                android:id="@+id/layout_org">
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:background="@drawable/icon_search"
+                    android:layout_gravity="center_vertical"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="3dp"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="20dp"
+                android:layout_weight="0.25"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical"
+                android:text="@string/label_sub_inventory"
+                android:textSize="13sp"
+                android:textColor="@color/black"
+                android:textStyle="bold"/>
+
+            <EditText
+                android:id="@+id/edit_sub_inv"
+                android:layout_width="0dp"
+                android:layout_height="25dp"
+                android:layout_weight="0.75"
+                android:background="@drawable/bg_input"
+                android:textColor="@color/black"
+                android:inputType="textNoSuggestions"
+                android:textSize="13sp"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/layout_style"
+                android:id="@+id/layout_sub_inv">
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:background="@drawable/icon_search"
+                    android:layout_gravity="center_vertical"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="3dp"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="20dp"
+                android:layout_weight="0.25"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical"
+                android:text="@string/label_locator_from"
+                android:textSize="13sp"
+                android:textColor="@color/black"
+                android:textStyle="bold"/>
+
+            <EditText
+                android:id="@+id/edit_loc"
+                android:layout_width="0dp"
+                android:layout_height="25dp"
+                android:layout_weight="0.75"
+                android:background="@drawable/bg_input"
+                android:textColor="@color/black"
+                android:inputType="textNoSuggestions"
+                android:textSize="13sp"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/layout_style"
+                android:id="@+id/layout_loc">
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:background="@drawable/icon_search"
+                    android:layout_gravity="center_vertical"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="3dp"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="20dp"
+                android:layout_weight="0.25"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical"
+                android:text="@string/label_locator_to"
+                android:textSize="13sp"
+                android:textColor="@color/black"
+                android:textStyle="bold"/>
+
+            <EditText
+                android:id="@+id/edit_loc1"
+                android:layout_width="0dp"
+                android:layout_height="25dp"
+                android:layout_weight="0.75"
+                android:background="@drawable/bg_input"
+                android:textColor="@color/black"
+                android:inputType="textNoSuggestions"
+                android:textSize="13sp"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/layout_style"
+                android:id="@+id/layout_loc1">
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:background="@drawable/icon_search"
+                    android:layout_gravity="center_vertical"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="3dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="20dp"
+                android:layout_weight="0.25"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical"
+                android:text="@string/label_pallet_no"
+                android:textSize="13sp"
+                android:textColor="@color/black"
+                android:textStyle="bold"/>
+
+            <EditText
+                android:id="@+id/edit_pallet"
+                android:layout_width="0dp"
+                android:layout_height="25dp"
+                android:layout_weight="0.75"
+                android:background="@drawable/bg_input"
+                android:textColor="@color/black"
+                android:textSize="13sp"
+                android:inputType="textNoSuggestions"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/layout_style"
+                android:id="@+id/layout_pallet">
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:background="@drawable/icon_search"
+                    android:layout_gravity="center_vertical"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="3dp"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="0.15"
+                android:text="@string/label_type"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <RadioGroup
+                android:layout_width="0dp"
+                android:layout_height="25dp"
+                android:layout_weight="0.35"
+                android:orientation="horizontal"
+                android:gravity="center_vertical" >
+
+                <RadioButton
+                    android:id="@+id/label_large"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/label_text_l"
+                    android:textSize="15sp" />
+                <RadioButton
+                    android:id="@+id/label_small"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/label_text_s"
+                    android:textSize="15sp" />
+            </RadioGroup>
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.25"
+                android:layout_marginStart="5dp"
+                android:gravity="center_horizontal"
+                android:textColor="#fff"
+                android:text="@string/label_btn_find"
+                android:textAllCaps="false"
+                android:textSize="12sp"
+                android:background="@drawable/button_style"
+                android:id="@+id/btn_find"/>
+
+            <Button
+                android:id="@+id/btn_print"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="5dp"
+                android:layout_weight="0.25"
+                android:background="@drawable/button_style"
+                android:gravity="center_horizontal"
+                android:text="@string/label_btn_print"
+                android:textAllCaps="false"
+                android:textColor="#fff"
+                android:textSize="12sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:background="#eee"
+        android:layout_marginTop="5dp"/>
+
+    <ListView
+        android:id="@+id/list_locator"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:listitem="@layout/item_label_locator"/>
+</LinearLayout>
